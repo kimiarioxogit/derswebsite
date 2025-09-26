@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
 
-  const startMessage = "N-nyaaa!! don't touch itt >~<";
+  const startMessage = "N-nyaaa!! don't touch itt >~<é";
   let startTextContent = '';
   let startIndex = 0;
   let startCursorVisible = true;
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function initializeVisitorCounter() {
     let totalVisitors = localStorage.getItem('totalVisitorCount');
     if (!totalVisitors) {
-      totalVisitors = 921234;
+      totalVisitors = 777777;
       localStorage.setItem('totalVisitorCount', totalVisitors);
     } else {
       totalVisitors = parseInt(totalVisitors);
